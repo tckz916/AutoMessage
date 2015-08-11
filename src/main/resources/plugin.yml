@@ -1,0 +1,11 @@
+name: AutoMessage
+version: 1.0.0
+author: hayatarou_
+
+main: com.github.tckz916.automessage.AutoMessage
+
+commands:
+    automessagereload:
+        description: AutoMessage Reload Command
+        aliases: amr
+        permission: automessage.reload

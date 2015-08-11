@@ -1,0 +1,12 @@
+#文頭に表示されるPrefixの設定(カラーコード対応)
+Prefix: '&7[&bTIP&7] '
+
+#メッセージを表示する間隔(秒単位)
+Second: 60
+
+#メッセージの設定(カラーコード対応)
+# %newline% を使用して改行もできます。例 '&7Test Message %newline% NewLine Message'
+Message:
+- '&7Test Message 1'
+- '&7Test Message 2'
+- '&7Test Message 3'
