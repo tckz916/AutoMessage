@@ -14,6 +14,7 @@ import java.io.Reader;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by tckz916 on 2015/08/12.
@@ -43,7 +44,7 @@ public class MessageTask {
                     conf.load(reader);
 
                     String prefix = conf.getString(AutoMessage.getPrefix());
-                    ArrayList<String> msgs = new ArrayList<>(conf.getStringList(AutoMessage.getList()));
+                    List<String> msgs = conf.getStringList(AutoMessage.getList());
                     if (msgs.size() == i) {
                         i = 0;
                     }
